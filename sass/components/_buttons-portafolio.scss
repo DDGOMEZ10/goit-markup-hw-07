@@ -1,0 +1,28 @@
+.principal-buttons{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap:8px;
+  }
+  
+  
+  
+    .principal-buttons__button {
+      cursor: pointer;
+      text-align: center;
+      background: $background-second-color;
+      border-radius: 4px;
+      border: none;
+      padding: 6px 24px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: background-color 250ms $cubic, color 250ms $cubic;
+      &:hover,
+  &:focus,
+    &:active{
+      background-color: $logo-color;
+      color: $background-second-color;
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    }
+    }
+  

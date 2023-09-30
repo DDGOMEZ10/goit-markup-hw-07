@@ -1,0 +1,41 @@
+
+.about-us-list {
+    @include flexpositionning(center,center );
+    list-style-type:none;
+  gap: 30px;
+  padding: 0;
+  }
+  
+  .about-us-parragraphs{
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    list-style-type:none;
+    align-items: flex-start;
+  gap: 30px;
+  padding: 0;
+  
+  }
+
+  .about-us{
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .about-us-parragraphs__item {
+    width: 270px;
+  }
+  
+  
+  .about-us-parragraphs__titles{
+    list-style-type:none;
+    line-height: 1.17;
+    font-weight: $font-weight-titles;
+  }
+  
+  
+  .about-us-parragraphs__parragraph{
+    line-height: 1.71;
+    color: $primary-text-color;
+  }

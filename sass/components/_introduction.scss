@@ -1,0 +1,49 @@
+
+.icons-introduction {
+    align-items: center;
+  }
+  .introduction__title{
+    justify-content: space-between;
+      font-size: 44px;
+      line-height: 1.17;
+      font-weight: 900;
+      text-align: center;
+      color: $footer-text-color;
+      margin:auto;
+      margin-top: 0;
+      width: 696px;
+      margin-bottom: 30px;
+  }
+  
+  .introduction{
+   @include flexpositionning(center,center );
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/Imagen_fondo-principal.jpg');
+    background-size: cover;
+    max-width: 1600px;
+    margin:auto;
+    text-align: center;
+    height: 600px;
+    align-items: center;
+  }
+  .introduction__button {
+    color: $footer-text-color;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.87;
+    font-weight: $font-weight-titles;
+    background: $logo-color;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 30px;
+padding: 10px 32px;
+text-align: center;
+    transition: color .250ms $cubic;
+    &:hover {
+      color: blue;
+      text-align: center;
+    }
+    &:active {
+      color: blue;
+      text-align: center;
+    }
+  }

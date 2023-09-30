@@ -1,0 +1,42 @@
+.clients-regular{
+    padding-top: 59;
+    }
+    
+    .clients-regular__title{
+      color: #212121;
+    text-align: center;
+    margin-top: 59px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: $font-weight-titles;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    }
+    
+    .costumers{
+      @include flexpositionning(center,center );
+      list-style: none;
+      gap: 30px;
+      padding-left: 0px;
+      margin-bottom: 151px;
+     
+    }
+  .costumers__icons{
+    border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  padding-top: 14.1px;
+      padding-bottom: 14.1px;
+      padding-right: 32px;
+      padding-left: 32px;
+      fill: #AFB1B8;
+      cursor: pointer;
+      transition: fill 250ms $cubic, color 250ms $cubic ;
+      &:hover {
+        fill: $logo-color;
+        border-color: $logo-color;
+      }
+  }
+  .costumers__item:hover{
+    border: $logo-color;
+  }
+  
