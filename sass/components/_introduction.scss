@@ -17,7 +17,7 @@
   
   .introduction{
    @include flexpositionning(center,center );
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/Imagen_fondo-principal.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/fondo.jpg');
     background-size: cover;
     max-width: 1600px;
     margin:auto;
