@@ -1,26 +1,29 @@
-.aplications__parragraph {
-    color:  $primary-text-color;
-  }
-  
+.aplications{
+  font-size: 16px;
+  background-color: $background-second-color;
+  &__title{
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: $font-weight-titles;
+    text-align: center;
+}
 .card-aplications{
-    @include flexpositionning(center,center);
-        line-height: 1.17;
-        list-style-type:none;
-        gap: 30px;
-        text-align: center;
-    padding: 0%;
-    
+  @include flexpositionning(center,center);
+      line-height: 1.17;
+      list-style-type:none;
+      gap: 30px;
+      text-align: center;
+  padding: 0%;
+  .card-aplications__card{
+    background-color: $footer-text-color;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+    .aplications__parragraph {
+      color:  $primary-text-color;
     }
-    
     .aplications__title2 {
       font-weight: 500;
     }
-    
-    .aplications{
-        font-size: 16px;
-        background-color: $background-second-color
-    }
-     
     .little-icons{
       list-style-type: none;
       display: flex;
@@ -29,14 +32,7 @@
       padding-right: 32px;
       padding-left: 32px;
       padding-bottom: 30px;
-    }
-    
-    .card-aplications__card{
-      background-color: $footer-text-color;
-      box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-      border-radius: 0px 0px 4px 4px;
-    }
-    
+        
     .little-icons__icon {
       border-radius: 50%;
       width: 44px;
@@ -45,16 +41,36 @@
       &:hover{
         background-color: $logo-color;
       }
+      .little-icons__img{
+        gap: 10px;
+         display: flex;
+         padding: 12px;
+         cursor: pointer;
+         fill: #AFB1B8;
+         justify-content: center;
+         &:hover {
+           fill: $footer-text-color;
+         }
+       }
     }
     
-    .little-icons__img{
-     gap: 10px;
-      display: flex;
-      padding: 12px;
-      cursor: pointer;
-      fill: #AFB1B8;
-      justify-content: center;
-      &:hover {
-        fill: $footer-text-color;
-      }
     }
+  }
+
+  }
+}
+
+
+  
+
+    
+    
+    
+   
+     
+   
+    
+  
+    
+  
+  

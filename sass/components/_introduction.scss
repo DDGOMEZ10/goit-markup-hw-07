@@ -1,8 +1,13 @@
-
-.icons-introduction {
-    align-items: center;
-  }
-  .introduction__title{
+.introduction{
+  @include flexpositionning(center,center );
+   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/fondo.jpg');
+   background-size: cover;
+   max-width: 1600px;
+   margin:auto;
+   text-align: center;
+   height: 600px;
+   align-items: center;
+   &__title{
     justify-content: space-between;
       font-size: 44px;
       line-height: 1.17;
@@ -14,18 +19,7 @@
       width: 696px;
       margin-bottom: 30px;
   }
-  
-  .introduction{
-   @include flexpositionning(center,center );
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url('../images/fondo.jpg');
-    background-size: cover;
-    max-width: 1600px;
-    margin:auto;
-    text-align: center;
-    height: 600px;
-    align-items: center;
-  }
-  .introduction__button {
+  &__button {
     color: $footer-text-color;
     font-size: 16px;
     cursor: pointer;
@@ -47,3 +41,10 @@ text-align: center;
       text-align: center;
     }
   }
+ }
+
+
+ 
+  
+ 
+
