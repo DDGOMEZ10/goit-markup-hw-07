@@ -9,8 +9,7 @@ $border-header: #ececec;
 $font-weight-titles: 700;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 
-@mixin flexpositionning($display, $justy-content)
-   {display: flex;
+@mixin flex-positionning {display: flex;
      justify-content: space-between;
    
    }

@@ -3,7 +3,7 @@
   font-size: 14px;
   text-align: left;
   .about-us-list {
-    @include flexpositionning(center,center );
+    @include flex-positionning;
     list-style-type:none;
   gap: 30px;
   padding: 0;
